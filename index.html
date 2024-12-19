@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Traffic Sentinel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="pic/HNPDR-11-12-2024.png" alt="logo" width={50} />
+        <h1>Smart Traffic Sentinel</h1>
+        <div class="mode-toggle" onclick="toggleMode()">
+            <span id="mode-icon">🌙</span>
+        </div>
+    </header>
+  
+    <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        
+        .title {
+          font-size: 24px;
+          margin-bottom: 20px;
+          font-weight: bold;
+        }
+        
+        .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 columns */
+      gap: 20px; /* Space between cards */
+      max-width: 1200px;
+      margin: auto; /* Center the grid */
+  }
+  
+  .card {
+      background: #b1b1b5;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      color: var(--text-color);
+  }
+  
+  .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+  }
+
+  .card p {
+      margin-top: 10px;
+      font-size: 0.9em;
+      color: #333;
+  }
+        
+        .card .details {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding: 10px;
+        }
+        
+        .card .details h3 {
+          margin: 0;
+        }
+        
+        .card .details p {
+          margin: 0;
+          font-size: 14px;
+          line-height: 1.5;
+        }
+        
+        </style>
+        </head>
+        <body>
+        
+        <div class="container">
+          <h1 class="title">OUR PROJECT OVERVIEW</h1>
+          <div class="cards">
+            <div class="card">
+              <img src="pic/og.jpeg" alt="Car Original Image">
+              <p>🚦 <strong>Revolutionizing Road Safety with AI</strong><br>This project introduces a cutting-edge system that combines machine learning with real-time video analysis to detect helmets and recognize vehicle number plates. By automating road safety monitoring, this solution aims to bring a positive change to traffic enforcement and reduce accidents.</p>
+            </div>
+            <div class="card">
+              <img src="pic/gray.jpeg" alt="Graying of the image">
+              <p>👷 <strong>Motivation for Innovation</strong><br>With increasing road accidents and non-compliance to helmet rules, the need for automated enforcement has never been clearer. Our project leverages the latest in computer vision and AI, offering a powerful tool to support law enforcement and ensure safer roads for all!</p>
+            </div>
+            <div class="card">
+              <img src="pic/edge.jpeg" alt="Edge Detection">
+              <p>🔍 <strong>Smart Detection in Action</strong><br>Using the YOLO model and EasyOCR, our system identifies whether riders are wearing helmets and captures number plate details with high accuracy—even in challenging conditions. This dual-function system ensures efficient traffic rule enforcement!</p>
+            </div>
+            <div class="card">
+                <img src="pic/final car image.jpeg" alt="final picture">
+                <p>⚙️ <strong>Advanced Methodology</strong><br>Our approach involves a robust pipeline, from data acquisition and preprocessing to real-time processing and result visualization. This structured approach allows for effective monitoring and insightful data collection, ensuring every aspect of safety is covered!</p>
+            </div>
+            <div class="card">
+                <img src="pic/helmet.jpeg" alt="yes Helmet">
+                <p>🚀 <strong>Future Prospects</strong><br>This project opens doors to even more innovative possibilities! We aim to enhance detection algorithms, broaden violation detection, and ensure scalability across diverse traffic environments. Future enhancements will make it even more versatile for real-world applications.</p>
+            </div>
+            <div class="card">
+                <img src="pic/no helmet.jpeg" alt="no Helmet">
+                <p>🛠️ <strong>Continuous Improvement</strong><br>Our team is dedicated to ongoing refinement of the helmet detection and number plate recognition system. With continuous feedback and advancements in AI, we aim to improve accuracy and usability for all traffic monitoring scenarios.</p>
+            </div>
+          </div>
+        </div>
+        </body>
+    
+
+    <div class="buttons">
+      <button onclick="window.location.href='https://prod.liveshare.vsengsaas.visualstudio.com/join?13D6A7CB09BF02B32F4D79751A4310BF276A'">Helmet Detection</button>
+        <button onclick="window.location.href='https://colab.research.google.com/drive/1ZZaRPW3WyH5cK2kZd1FE8nkHun6EHEGM'">Car Number Plate Recognition</button>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-content">
+            <img src="pic/HNPDR-11-12-2024.png" alt="Logo" class="logo">
+            <p class="footer-text">Please Enter and Explore our Website...</p>
+            <a href="Contact.html" class="contact-link">Contact Us</a>
+        </div>
+    </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
